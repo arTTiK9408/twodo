@@ -33,3 +33,5 @@ class ToDoApp(App):
 if __name__ == "__main__":
     app = ToDoApp()
     app.run()
+
+# NOTE https://textual.textualize.io/tutorial
