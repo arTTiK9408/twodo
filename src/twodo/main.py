@@ -1,3 +1,5 @@
+from typing import final, override
+
 from textual.app import App, ComposeResult
 from textual.widgets import Footer, Header
 
@@ -6,7 +8,7 @@ from textual.widgets import Footer, Header
 # NOTE https://textual.textualize.io/widget_gallery/
 # The App class is where most of the logic of Textual apps is written.
 # It is responsible for loading configuration, setting up widgets, handling keys, and more.
-class TwoDo(App):
+class TwoDo(App[None]):
     """A TODO.txt manager, with vim motions"""
 
     BINDINGS = [  # noqa: RUF012
@@ -18,6 +20,7 @@ class TwoDo(App):
         ("c", "focus_context", "Context"),
     ]
 
+    @override
     def compose(self) -> ComposeResult:
         """Create child widget for the app"""
         yield Header(icon="󰄵")  # TODO: add nerd font requirement check
@@ -27,6 +30,7 @@ class TwoDo(App):
         self.title = "TwoDo | <placeholder>"
         self.sub_title = "TODO.txt manager"
 
+    @override
     def action_toggle_dark(self) -> None:
         """An action to toggle dark mode"""
         self.theme = (
