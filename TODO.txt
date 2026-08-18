@@ -1,0 +1,18 @@
+2026-06-13 add logic to create tab when bind press and tab doesnt exist +wezterm @config @lua
+2026-06-13 ajustar truncação no diagnóstico , não está sendo mostrado com o tamanho da janela reduzido +nvim @setup @ministatusline
+2026-06-14 skill para trabalhar com json, toda vez que vai realizar alguma alteração, erra as virgulas +opencode @config @fix
+2026-06-14 alterar border color do workspace special +hyprland @config
+2026-06-16 adicionar a logica de mudar o icone de carregamento na tabbar quando o notebook estiver conectado +wezterm @config
+criar script para adicionar `bases codeblock` nas notas resources +obsidian @script @dev
+criar script de migração de nota - major projects não migram; minor projects migram para resources; major e minor resources migram entre si; quicknotes migram para resources +obsidian @script @dev @opencode 
+(C) organizar senhas e pastas no +bitwarden @senhas
+(C) migrar/espelhar todas as senhas do bitwarden para o pass cli +bitwarden +pass @senhas @cli
+(A) checar rendimento do dinheiro no app +finança @c6 @banco @rendimento
+(A) ajeitar a boia da caixa dagua +casa @agua @pedro
+(B) comprar parafusos para ajeitar a mesa de bia +casa @mesa
+(B) comprar 3m de fio 2,5mm e uma tomada simples +casa @pedro @lavadora
+checar o arqvuivos restantes da instalação do bitwarden, verificar se o empacotamento de appimage cria arquivos em `.config` +arch @config
+(B) revisar configurações e instruções post install, bem como fazer a checagem dos aplicativos que devem entrar nos scripts +arch @setup @script @postinstall
+(A) refatorar o código de exemplo do dart, para gerar os valores aproximados de pi usando outro metodo +dart @exercise @learn
+criar/editar as notas de guia para emissão de notas IHS e mesclar com as dos bancos +pbm @faturamento @notas
+adicionar lsp para css +nvim @lsp @config

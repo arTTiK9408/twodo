@@ -1,0 +1,5 @@
+x 2026-06-13 2026-06-11 add battery counter on wezterm status right +arch @wezterm
+x 2026-06-14 2026-06-13 notificação ao adicionar item ao carrinho e marcador no botão do item, dando um feedbekc de que ja tem uma ou mais unidades adicionadas ao carrinho +barber_projet @opencode due:2026-06-14
+x 2026-06-14 2026-06-13 remover seção de galeria e contato e itens em destaques +barber_projet @opencode due:2026-06-14
+x 2026-06-14 2026-06-13 pivotar o foco do site para um catálogo de produtos de venda em atacado +barber_projet @opencode @refactor due:2026-06-14
+x 2026-07-14 2026-07-14 migrar todas os scripts usados pelo obsidian para a pasta local versionada do obsidian @obsidian +organization
