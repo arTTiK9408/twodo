@@ -1,7 +1,7 @@
 [project]
 name = "twodo"
 version = "0.1.0"
-description = ""
+description = "todo.txt manager"
 authors = [
     {name = "arTTiK9408",email = "vg9408@gmail.com"}
 ]
