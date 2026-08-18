@@ -2,10 +2,11 @@ from textual.app import App, ComposeResult
 from textual.widgets import Footer, Header
 
 
-# https://textual.textualize.io/widget_gallery/
+# NOTE https://textual.textualize.io/tutorial
+# NOTE https://textual.textualize.io/widget_gallery/
 # The App class is where most of the logic of Textual apps is written.
 # It is responsible for loading configuration, setting up widgets, handling keys, and more.
-class ToDoApp(App):
+class TwoDo(App):
     """A TODO.txt manager, with vim motions"""
 
     BINDINGS = [  # noqa: RUF012
@@ -34,7 +35,5 @@ class ToDoApp(App):
 
 
 if __name__ == "__main__":
-    app = ToDoApp()
+    app = TwoDo()
     app.run()
-
-# NOTE https://textual.textualize.io/tutorial
