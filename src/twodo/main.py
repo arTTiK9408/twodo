@@ -12,12 +12,12 @@ class TwoDo(App[None]):
     """A TODO.txt manager, with vim motions"""
 
     BINDINGS = [  # noqa: RUF012
-        ("j", "navigate_down", "Down"),
-        ("k", "navigate_up", "Up"),
-        ("q", "quit_app", "Quit"),
-        ("t", "toggle_dark", "Dark mode"),
-        ("p", "focus_projects", "Projects"),
-        ("c", "focus_context", "Context"),
+        ("j", "navigate_down", "down"),
+        ("k", "navigate_up", "up"),
+        ("q", "quit_app", "quit"),
+        ("t", "toggle_dark", "dark mode"),
+        ("p", "focus_projects", "projects"),
+        ("c", "focus_context", "contexts"),
     ]
 
     @override
